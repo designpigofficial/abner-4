@@ -1,5 +1,6 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/react";
+import styles from '../../styles/Header.module.css'
 
 import ThemeToggle from "./ThemeToggle";
 
@@ -9,7 +10,7 @@ const Header = () => (
       <Link href="/">Abner Development</Link>
     </Heading>
 
-    <Box marginLeft="auto">
+    <Box marginLeft="auto" className={"styles.header-box"}>
       <Link href="/about" mx={7}>About</Link>
       <Link href="/services" mx={7}>Services</Link>
       <Link href="/projects" mx={7}>Projects</Link>

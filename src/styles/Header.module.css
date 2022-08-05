@@ -1,0 +1,9 @@
+.header-box {
+    display:flex;
+}
+
+@media and screen only (max-width: 962px) {
+    .header-box {
+        display:none;
+    }
+}
