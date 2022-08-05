@@ -5,7 +5,7 @@ const Footer = () => (
     <Text>
       {new Date().getFullYear()} -{" "}
       <Link href="https://github.com/legitbeep" isExternal>
-        legitbeep
+        &copy; Abner Development
       </Link>
     </Text>
   </Flex>

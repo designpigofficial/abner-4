@@ -1,21 +1,21 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "nextchakra-starter",
-  titleTemplate: "%s | nextchakra-starter",
-  defaultTitle: "nextchakra-starter",
-  description: "Next.js + Chakra-ui + TypeScript template",
+  title: "Abner Development",
+  titleTemplate: "%s | abner-development",
+  defaultTitle: "Abner Development",
+  description: "Design | Develop | Market",
   canonical: "",
   openGraph: {
     url: "",
-    title: "nextchakra-starter",
-    description: "Next.js + chakra-ui + TypeScript template",
+    title: "Abner Development",
+    description: "Design | Develop | Market",
     images: [
       // {
       //   url:
       //   alt:
       // },
     ],
-    site_name: "nextchakra-starter",
+    site_name: "Abner Development",
   },
   twitter: {
     cardType: "summary_large_image",

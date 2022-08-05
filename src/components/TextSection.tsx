@@ -14,7 +14,7 @@ const TextSection = () => {
   return (
     <>
       <Heading as="h2" fontSize="3xl">
-        Welcome
+        Abner Development
       </Heading>
 
       <Box
@@ -23,7 +23,7 @@ const TextSection = () => {
         borderRadius={4}
       >
         <Box d="flex" alignItems="center" fontSize={textSize}>
-          Next.js starter fueled with Typescript and Chakra-UI.
+          Design | Develop | Market
         </Box>
       </Box>
     </>

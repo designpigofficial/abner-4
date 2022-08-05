@@ -1,7 +1,7 @@
 import { Box, Button, Code, Flex, Image, Link } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
 
-const repoLink = "https://github.com/legitbeep/nextchakra-starter";
+const repoLink = "https://github.com/designpigofficial/abner-4.git";
 
 const CTASection = () => {
   return (
@@ -12,37 +12,17 @@ const CTASection = () => {
         </Link>
       </Flex>
 
-      <Box marginY={2}>
-        <Code>npx degit legitbeep/nextchakra-starter {"<YOUR_APP_NAME>"} </Code>
-        <br />
-        <Button
-          marginTop={2}
-          as="a"
-          href="https://github.com/legitbeep/nextchakra-starter/generate"
-          target="_blank"
-          size="sm"
-        >
-          Use this template
-        </Button>
-      </Box>
 
       <Flex justifyContent="center" alignItems="center" gridGap={2}>
         <Button
           as="a"
-          href={repoLink}
+          href="https://github.com/designpigofficial/abner-4.git"
           target="_blank"
           leftIcon={<AiFillGithub />}
           size="sm"
         >
           Github
         </Button>
-        <Link href={repoLink} isExternal>
-          <Image
-            src="https://img.shields.io/github/stars/legitbeep/nextchakra-starter?style=social"
-            align="center"
-            alt="github stars"
-          />
-        </Link>
       </Flex>
     </Box>
   );
